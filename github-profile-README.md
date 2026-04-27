@@ -22,7 +22,7 @@ I build production AI systems and scalable frontend platforms with a strong focu
 
 - Data Scientist at Accenture India (R&D)
 - GCP Professional ML Engineer
-- Location: Hyderabad -> Boston
+- Location: Hyderabad, India
 - Focus: Trustworthy RAG, AI observability, micro-frontend architecture
 
 ---
