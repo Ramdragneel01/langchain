@@ -1,0 +1,51 @@
+# Stray log / temp files from local script runs
+*.log
+*.stderr.log
+*.stdout.log
+*.err.log
+*.out.log
+.tmp-*.json
+tmp.*
+
+# Sibling project folders — each has its own .git and is its own repo.
+# They should not appear in this repository's source control.
+agent-tracer/
+agentic-research-assistant/
+agentic-ui/
+astramesh/
+automated-ml-prediction-annotation-system/
+autonomous-workflow-optimization-agents/
+config-forge/
+context-watchdog/
+credit-card-usage-analysis-prediction/
+dragon-portfolio/
+dragon-tail/
+Dragons-Drom-profile/
+drift-watch/
+generative-ai-domain-nlp-solution/
+github-contributions-filler/
+hallucination-lens/
+infyspaces-platform/
+interview-os/
+langchain/
+llm-judge/
+maestro-ai/
+medium-drafts/
+mlops-sentinel/
+neuralscope/
+object-detection-audio-feedback-assistive/
+orchestration-overlord/
+partner-portal-microfrontends/
+pizzeria-fullstack-ordering-platform/
+prompt-ops/
+rag-firewall/
+ragbench/
+Ramdragneel01/
+ramdragneel01.github.io/
+speech-emotion-recognition-ml/
+speech-emotion-v2/
+
+# Python / Node local env
+.venv/
+node_modules/
+__pycache__/

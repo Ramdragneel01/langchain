@@ -18,6 +18,6 @@ exporters:
 service:
   pipelines:
     traces:
-      receivers: [otlp]
-      processors: [batch]
-      exporters: [logging, otlp/jaeger]
+      receivers: [ otlp ]
+      processors: [ batch ]
+      exporters: [ logging, otlp/jaeger ]

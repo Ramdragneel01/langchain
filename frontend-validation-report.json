@@ -1,0 +1,56 @@
+﻿[
+    {
+        "repo":  "drift-watch",
+        "install":  "pass",
+        "lint":  "pass",
+        "test":  "pass"
+    },
+    {
+        "repo":  "llm-judge",
+        "install":  "pass",
+        "lint":  "pass",
+        "test":  "pass"
+    },
+    {
+        "repo":  "ragbench",
+        "install":  "pass",
+        "lint":  "pass",
+        "test":  "pass"
+    },
+    {
+        "repo":  "prompt-ops",
+        "install":  "pass",
+        "lint":  "pass",
+        "test":  "pass"
+    },
+    {
+        "repo":  "neuralscope",
+        "install":  "pass",
+        "lint":  "pass",
+        "test":  "pass"
+    },
+    {
+        "repo":  "config-forge",
+        "install":  "pass",
+        "lint":  "pass",
+        "test":  "pass"
+    },
+    {
+        "repo":  "interview-os",
+        "install":  "pass",
+        "lint":  "pass",
+        "test":  "pass"
+    },
+    {
+        "repo":  "mlops-sentinel",
+        "install":  "pass",
+        "lint":  "pass",
+        "test":  "pass"
+    },
+    {
+        "repo":  "agentic-ui",
+        "install":  "pass",
+        "lint":  "pass",
+        "test":  "pass"
+    }
+]

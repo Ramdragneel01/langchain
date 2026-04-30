@@ -1,0 +1,31 @@
+{
+  "$schema": "./tracker.schema.json",
+  "program": "Production AI, From Zero — 12 Projects",
+  "owner": "Ramdragneel01",
+  "startedAt": "2026-04-30",
+  "gates": [
+    "architecture",
+    "security",
+    "deployable",
+    "ci",
+    "release",
+    "ops",
+    "portfolio",
+    "mediumArticle",
+    "portfolioCardAdded"
+  ],
+  "projects": {
+    "rag-firewall":               { "phase": "A1", "status": "not-started", "gates": {}, "mediumUrl": null, "repoUrl": null },
+    "eval-harness-pro":           { "phase": "A2", "status": "not-started", "gates": {}, "mediumUrl": null, "repoUrl": null },
+    "agent-cost-governor":        { "phase": "A3", "status": "not-started", "gates": {}, "mediumUrl": null, "repoUrl": null },
+    "vector-drift-monitor":       { "phase": "A4", "status": "not-started", "gates": {}, "mediumUrl": null, "repoUrl": null },
+    "copilot-for-readmes":        { "phase": "B1", "status": "not-started", "gates": {}, "mediumUrl": null, "repoUrl": null },
+    "micro-frontend-starter-kit": { "phase": "B2", "status": "not-started", "gates": {}, "mediumUrl": null, "repoUrl": null },
+    "gcp-vertex-rag-blueprint":   { "phase": "B3", "status": "not-started", "gates": {}, "mediumUrl": null, "repoUrl": null },
+    "speech-emotion-edge":        { "phase": "B4", "status": "not-started", "gates": {}, "mediumUrl": null, "repoUrl": null },
+    "agent-replay":               { "phase": "C1", "status": "not-started", "gates": {}, "mediumUrl": null, "repoUrl": null },
+    "prompt-diff":                { "phase": "C2", "status": "not-started", "gates": {}, "mediumUrl": null, "repoUrl": null },
+    "rag-for-codebases":          { "phase": "C3", "status": "not-started", "gates": {}, "mediumUrl": null, "repoUrl": null },
+    "certi-track":                { "phase": "C4", "status": "not-started", "gates": {}, "mediumUrl": null, "repoUrl": null }
+  }
+}
