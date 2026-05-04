@@ -49,3 +49,8 @@ speech-emotion-v2/
 .venv/
 node_modules/
 __pycache__/
+
+# Local tooling
+scripts/screenshot-tool/
+.vscode/
+

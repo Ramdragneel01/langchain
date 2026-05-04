@@ -15,17 +15,233 @@
     "portfolioCardAdded"
   ],
   "projects": {
-    "rag-firewall":               { "phase": "A1", "status": "not-started", "gates": {}, "mediumUrl": null, "repoUrl": null },
-    "eval-harness-pro":           { "phase": "A2", "status": "not-started", "gates": {}, "mediumUrl": null, "repoUrl": null },
-    "agent-cost-governor":        { "phase": "A3", "status": "not-started", "gates": {}, "mediumUrl": null, "repoUrl": null },
-    "vector-drift-monitor":       { "phase": "A4", "status": "not-started", "gates": {}, "mediumUrl": null, "repoUrl": null },
-    "copilot-for-readmes":        { "phase": "B1", "status": "not-started", "gates": {}, "mediumUrl": null, "repoUrl": null },
-    "micro-frontend-starter-kit": { "phase": "B2", "status": "not-started", "gates": {}, "mediumUrl": null, "repoUrl": null },
-    "gcp-vertex-rag-blueprint":   { "phase": "B3", "status": "not-started", "gates": {}, "mediumUrl": null, "repoUrl": null },
-    "speech-emotion-edge":        { "phase": "B4", "status": "not-started", "gates": {}, "mediumUrl": null, "repoUrl": null },
-    "agent-replay":               { "phase": "C1", "status": "not-started", "gates": {}, "mediumUrl": null, "repoUrl": null },
-    "prompt-diff":                { "phase": "C2", "status": "not-started", "gates": {}, "mediumUrl": null, "repoUrl": null },
-    "rag-for-codebases":          { "phase": "C3", "status": "not-started", "gates": {}, "mediumUrl": null, "repoUrl": null },
-    "certi-track":                { "phase": "C4", "status": "not-started", "gates": {}, "mediumUrl": null, "repoUrl": null }
+    "rag-firewall": {
+      "phase": "A1",
+      "status": "shipped",
+      "gates": {
+        "architecture": true,
+        "security": true,
+        "deployable": true,
+        "ci": true,
+        "release": "v0.1.0",
+        "ops": true,
+        "portfolio": true,
+        "mediumArticle": "drafted",
+        "portfolioCardAdded": "pending-portfolio-file"
+      },
+      "mediumUrl": null,
+      "repoUrl": "https://github.com/Ramdragneel01/rag-firewall",
+      "tests": "26 passing",
+      "completedAt": "2026-04-30"
+    },
+    "eval-harness-pro": {
+      "phase": "A2",
+      "status": "shipped",
+      "gates": {
+        "architecture": true,
+        "security": true,
+        "deployable": "n/a-tooling",
+        "ci": true,
+        "release": "v0.1.0",
+        "ops": true,
+        "portfolio": true,
+        "mediumArticle": "drafted",
+        "portfolioCardAdded": "pending-portfolio-file"
+      },
+      "mediumUrl": null,
+      "repoUrl": "https://github.com/Ramdragneel01/eval-harness-pro",
+      "tests": "19 passing",
+      "completedAt": "2026-04-30"
+    },
+    "agent-cost-governor": {
+      "phase": "A3",
+      "status": "shipped",
+      "gates": {
+        "architecture": true,
+        "security": true,
+        "deployable": true,
+        "ci": true,
+        "release": "v0.1.0",
+        "ops": true,
+        "portfolio": true,
+        "mediumArticle": "drafted",
+        "portfolioCardAdded": "pending-portfolio-file"
+      },
+      "mediumUrl": null,
+      "repoUrl": "https://github.com/Ramdragneel01/agent-cost-governor",
+      "tests": "27 passing",
+      "completedAt": "2026-04-30"
+    },
+    "vector-drift-monitor": {
+      "phase": "A4",
+      "status": "shipped",
+      "gates": {
+        "architecture": true,
+        "security": true,
+        "deployable": true,
+        "ci": true,
+        "release": "v0.1.0",
+        "ops": true,
+        "portfolio": true,
+        "mediumArticle": "drafted",
+        "portfolioCardAdded": "pending-portfolio-file"
+      },
+      "mediumUrl": null,
+      "repoUrl": "https://github.com/Ramdragneel01/vector-drift-monitor",
+      "tests": "38 passing",
+      "completedAt": "2026-04-30"
+    },
+    "copilot-for-readmes": {
+      "phase": "B1",
+      "status": "shipped",
+      "gates": {
+        "architecture": true,
+        "security": true,
+        "deployable": true,
+        "ci": true,
+        "release": "v0.1.0",
+        "ops": true,
+        "portfolio": true,
+        "mediumArticle": "drafted",
+        "portfolioCardAdded": "pending-portfolio-file"
+      },
+      "mediumUrl": null,
+      "repoUrl": "https://github.com/Ramdragneel01/copilot-for-readmes",
+      "tests": "20 passing",
+      "completedAt": "2026-04-30"
+    },
+    "micro-frontend-starter-kit": {
+      "phase": "B2",
+      "status": "shipped",
+      "gates": {
+        "architecture": true,
+        "security": true,
+        "deployable": true,
+        "ci": true,
+        "release": "v0.1.0",
+        "ops": true,
+        "portfolio": true,
+        "mediumArticle": "drafted",
+        "portfolioCardAdded": "pending-portfolio-file"
+      },
+      "mediumUrl": null,
+      "repoUrl": "https://github.com/Ramdragneel01/micro-frontend-starter-kit",
+      "tests": "10 passing",
+      "completedAt": "2026-05-04"
+    },
+    "gcp-vertex-rag-blueprint": {
+      "phase": "B3",
+      "status": "shipped",
+      "gates": {
+        "architecture": true,
+        "security": true,
+        "deployable": true,
+        "ci": true,
+        "release": "v0.1.0",
+        "ops": true,
+        "portfolio": true,
+        "mediumArticle": "drafted",
+        "portfolioCardAdded": "pending-portfolio-file"
+      },
+      "mediumUrl": null,
+      "repoUrl": "https://github.com/Ramdragneel01/gcp-vertex-rag-blueprint",
+      "tests": "21 passing",
+      "completedAt": "2026-05-04"
+    },
+    "speech-emotion-edge": {
+      "phase": "B4",
+      "status": "shipped",
+      "gates": {
+        "architecture": true,
+        "security": true,
+        "deployable": true,
+        "ci": true,
+        "release": "v0.1.0",
+        "ops": true,
+        "portfolio": true,
+        "mediumArticle": "drafted",
+        "portfolioCardAdded": "pending-portfolio-file"
+      },
+      "mediumUrl": null,
+      "repoUrl": "https://github.com/Ramdragneel01/speech-emotion-edge",
+      "tests": "8 passing",
+      "completedAt": "2026-05-04"
+    },
+    "agent-replay": {
+      "phase": "C1",
+      "status": "shipped",
+      "gates": {
+        "architecture": true,
+        "security": true,
+        "deployable": true,
+        "ci": true,
+        "release": "v0.1.0",
+        "ops": true,
+        "portfolio": true,
+        "mediumArticle": "drafted",
+        "portfolioCardAdded": "pending-portfolio-file"
+      },
+      "mediumUrl": null,
+      "repoUrl": "https://github.com/Ramdragneel01/agent-replay",
+      "tests": "18 passing",
+      "completedAt": "2026-05-04"
+    },
+    "prompt-diff": {
+      "phase": "C2",
+      "status": "shipped",
+      "gates": {
+        "architecture": true,
+        "security": true,
+        "deployable": true,
+        "ci": true,
+        "release": "v0.1.0",
+        "ops": true,
+        "portfolio": true,
+        "mediumArticle": "drafted",
+        "portfolioCardAdded": "pending-portfolio-file"
+      },
+      "mediumUrl": null,
+      "repoUrl": "https://github.com/Ramdragneel01/prompt-diff",
+      "tests": "20 passing",
+      "completedAt": "2026-05-04"
+    },
+    "rag-for-codebases": {
+      "phase": "C3",
+      "status": "shipped",
+      "gates": {
+        "architecture": true,
+        "security": true,
+        "deployable": true,
+        "ci": true,
+        "release": "v0.1.0",
+        "ops": true,
+        "portfolio": true,
+        "mediumArticle": "drafted",
+        "portfolioCardAdded": "pending-portfolio-file"
+      },
+      "mediumUrl": null,
+      "repoUrl": "https://github.com/Ramdragneel01/rag-for-codebases",
+      "tests": "19 passing",
+      "completedAt": "2026-05-04"
+    },
+    "certi-track": {
+      "phase": "C4",
+      "status": "shipped",
+      "gates": {
+        "architecture": true,
+        "security": true,
+        "deployable": true,
+        "ci": true,
+        "release": "v0.1.0",
+        "ops": true,
+        "portfolio": true,
+        "mediumArticle": "drafted",
+        "portfolioCardAdded": "pending-portfolio-file"
+      },
+      "mediumUrl": null,
+      "repoUrl": "https://github.com/Ramdragneel01/certi-track",
+      "tests": "6 passing",
+      "completedAt": "2026-05-04"
+    }
   }
 }
