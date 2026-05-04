@@ -1,3 +1,0 @@
--r requirements.txt
-pytest
-fakeredis>=2.23.0
